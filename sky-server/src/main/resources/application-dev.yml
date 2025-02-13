@@ -11,3 +11,8 @@ sky:
     access-key-id: LTAI5tNwFH8vWaf6hcE9CZxz
     access-key-secret: bA9AWmBIsGvzU2WUWCeF48nnokckAF
     bucket-name: pinkle
+  redis:
+    host: localhost
+    port: 6379
+    database: 0
+    password:
