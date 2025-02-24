@@ -1,5 +1,7 @@
 package com.sky.controller.user;
 
+import com.sky.dto.ShoppingCartDTO;
+import com.sky.entity.ShoppingCart;
 import com.sky.result.Result;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -24,6 +26,8 @@ public class ShopController {
         log.info("查询店铺营业状态:{}",status==1?"营业中" : "打烊中");
         return Result.success(status);
     }
+
+
 
 
 }
